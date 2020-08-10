@@ -41,5 +41,8 @@
       "pre-commit": "npm run lint",
       "pre-push": "npm run lint"
     }
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
   }
 }
