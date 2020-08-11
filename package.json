@@ -1,7 +1,7 @@
 {
-  "name": "fe_template",
+  "name": "softpro_tt",
   "version": "1.0.0",
-  "description": "Boilerplate for FE projects",
+  "description": "Geoportal landing page",
   "main": "./src/index.html",
   "scripts": {
     "start": "parcel ./src/index.html --open",
@@ -15,9 +15,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "frotend"
+    "geoportal",
+    "landing",
+    "softpro"
   ],
   "author": "ogsevko",
   "license": "ISC",

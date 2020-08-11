@@ -1,0 +1,68 @@
+.data {
+  background-color: rgb(235, 235, 235);
+
+  &__container {
+    padding: 136px 0 185px;
+  }
+
+  &__text {
+    margin-bottom: 90px;
+  }
+
+  &__title {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgb(189, 189, 189);
+  }
+
+  &__heading {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    color: rgb(51, 51, 51);
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+  }
+
+  &__link {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  &__link:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  &__box {
+    width: 370px;
+    height: 362px;
+    padding: 262px 45px 45px;
+
+    background: linear-gradient(
+      0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url("../images/data.png");
+  }
+
+  &__box:hover {
+    background: linear-gradient(
+      0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)),
+      url("../images/data.png");
+  }
+}
