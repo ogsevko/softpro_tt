@@ -1,0 +1,73 @@
+.contact {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/contact.png);
+  color: white;
+
+  &__container {
+    padding: 74px 0 107px;
+  }
+
+  &__title {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 144.55%;
+
+    text-align: center;
+  }
+
+  &__heading {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 138%;
+    text-align: center;
+
+    margin-bottom: 75px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+    margin-bottom: 30px;
+
+    &-text {
+      font-family: "Lato", Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 132%;
+    }
+  }
+
+  &__geotag {
+    margin-right: 32px;
+  }
+
+  &__phone {
+    margin-right: 43px;
+  }
+
+  &__clock,
+  &__email {
+    margin-right: 30px;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+
+}
