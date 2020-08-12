@@ -264,7 +264,7 @@
           </h2>
 
           <div class="contact__content">
-            <div class="contact__contacts">
+            <div class="contact__info">
               <div class="contact__item">
                 <img
                   src="images/geotag.svg"
@@ -323,31 +323,33 @@
                 class="contact__form"
                 id="contact-form"
               >
-                <label class="contact__label" for="name">
-                  Ім'я
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Іван"
-                    class="contact__input-name"
-                    autocomplete="off"
-                    required
-                  >
-                </label>
+                <div class="contact__form-top">
+                  <label class="contact__label" for="name">
+                    Ім'я
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Іван"
+                      class="contact__input contact__input_name"
+                      autocomplete="off"
+                      required
+                    >
+                  </label>
 
-                <label class="contact__label" for="surname">
-                  Прізвище
-                  <input
-                    type="text"
-                    name="surname"
-                    id="surname"
-                    placeholder="Іванов"
-                    class="contact__input-surname"
-                    autocomplete="off"
-                    required
-                  >
-                </label>
+                  <label class="contact__label" for="surname">
+                    Прізвище
+                    <input
+                      type="text"
+                      name="surname"
+                      id="surname"
+                      placeholder="Іванов"
+                      class="contact__input contact__input_surname"
+                      autocomplete="off"
+                      required
+                    >
+                  </label>
+                </div>
 
                 <label class="contact__label" for="user-phone">
                   Контактний телефон
@@ -356,7 +358,7 @@
                     name="user-phone"
                     id="user-phone"
                     placeholder="380111111111"
-                    class="contact__input-phone"
+                    class="contact__input"
                     autocomplete="off"
                     required
                   >
@@ -364,24 +366,27 @@
 
                 <label class="contact__label" for="message">
                   Повідомлення
-                  <input
+                  <textarea
                     type="textarea"
                     name="message"
                     id="message"
                     placeholder="Ваше повідомлення"
-                    class="contact__input-message"
+                    rows="5"
+                    cols="20"
+                    wrap="hard"
+                    maxlength="400"
+                    class="contact__input"
                     autocomplete="off"
                     required
-                  >
+                  ></textarea>
                 </label>
+                <button
+                  class="button contact__button"
+                  type="submit"
+                >
+                  Надіслати
+                </button>
               </form>
-              <button
-                class="button contact__button"
-                form="contact-form"
-                type="submit"
-              >
-                Надіслати
-              </button>
             </div>
           </div>
         </div>

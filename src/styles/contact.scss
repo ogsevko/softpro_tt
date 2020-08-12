@@ -2,6 +2,7 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../images/contact.png);
   color: white;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 
   &__container {
     padding: 74px 0 107px;
@@ -18,7 +19,6 @@
   }
 
   &__heading {
-    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -32,14 +32,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
   }
 
   &__item {
     margin-bottom: 30px;
 
     &-text {
-      font-family: "Lato", Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
@@ -70,4 +69,64 @@
     text-decoration: none;
   }
 
+  &__message {
+    width: 570px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+
+    &-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+    margin: 27px 0 20px;
+    padding-bottom: 5px;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+    background: transparent;
+    border-width: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    outline: none;
+
+    &_name,
+    &_surname {
+      width: 270px;
+    }
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 138%;
+      color: rgb(189, 189, 189);
+    }
+  }
+
+  &__button {
+    width: 158px;
+    height: 51px;
+    margin-left: auto;
+    background-color: rgb(0, 95, 163);
+    outline: none;
+    border: none;
+    color: white;
+  }
 }
