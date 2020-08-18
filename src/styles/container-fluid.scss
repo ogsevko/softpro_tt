@@ -1,10 +1,10 @@
 .container-fluid {
-  
+
   &_main {
-    max-width: 1170px;
+    max-width: 1170px !important;
   }
 
   &_contact {
-    max-width: 960px;
+    max-width: 960px !important;
   }
 }

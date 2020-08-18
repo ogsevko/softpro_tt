@@ -1,8 +1,8 @@
 .contact {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/contact.png);
+  background: url(../images/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  font-family: "Lato", Arial, Helvetica, sans-serif;
 
   &__container {
     padding: 74px 0 107px;
@@ -19,6 +19,7 @@
   }
 
   &__heading {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -35,10 +36,15 @@
     align-items: start;
   }
 
+  &__info {
+    width: 215px;
+  }
+
   &__item {
     margin-bottom: 30px;
 
     &-text {
+      font-family: "Lato", Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
@@ -85,6 +91,7 @@
   }
 
   &__label {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -112,6 +119,7 @@
     }
 
     &::placeholder {
+      font-family: "Lato", Arial, Helvetica, sans-serif;
       font-style: normal;
       font-weight: 300;
       font-size: 16px;
